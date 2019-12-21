@@ -1,0 +1,90 @@
+html, body {margin: 0}
+
+.full-height{
+    height: 100vh;
+    width: 100vw;
+  }
+
+.car-item-div {
+  align-self: center;
+  text-align: center; 
+  align-items: center; 
+  align-content: center; 
+  vertical-align: middle; 
+  padding: 0em;
+}
+
+.item-placa{
+  font-size: .8em; 
+  align-self: center;
+  margin: 0em;
+  background-color: #bbb;
+  border-radius: .4em;
+}
+.car-img-div{
+  align-self: center; 
+  padding: 0em;
+}
+.group-line{
+  margin: 0em; 
+  padding: 0 0 0 0;
+}
+
+.item-nome-car{
+  font-size: .8em; 
+  align-self: center; 
+  margin: 0em;
+}
+.car-cel-items{
+  vertical-align: middle;
+}
+
+.map-container{
+  padding:0 0 0 0; z-index: 1;
+}
+#map-ontrak{
+  width: 100vw; 
+  height: 100vh;
+}
+.menu-container-left{
+  margin-bottom: 1vh; 
+  margin-left: 1vw; 
+  margin-top: -98vh; 
+  height: 96vh; 
+  width: 25vw; 
+  z-index: 1000; 
+  position: absolute; 
+  background-color:#fff; 
+  border-radius: .5em; 
+  padding: 0 0 0 0;
+}
+
+.tag-logo-div{
+  padding: 1em 1em 1em 1em; 
+  width: 100%;
+}
+.header-menu-div{
+  margin-top: .6em; 
+  align-items: center; 
+  text-align: center;
+}
+.div-search-menu{
+  margin-top: .5em;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+          mobile
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.menu-container-left-mobile{
+  margin-bottom: 1vh; 
+  margin-left: 1vw; 
+  margin-top: -40vh; 
+  height: 98vh; 
+  width: 98vw; 
+  z-index: 1000; 
+  position: absolute; 
+  background-color:#fff; 
+  border-radius: .5em; 
+  padding: 0 0 0 0;
+}
